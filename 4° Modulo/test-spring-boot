@@ -28,7 +28,13 @@ spring.jpa.hibernate.ddl-auto=create
 
 # Conexão postgres
 
+spring.jpa.properties.hibernate.globally_quoted_identifiers=true
+
 spring.jpa.show-sql=true
+
+spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
+
+server.port = 9000
 
 spring.jpa.database=POSTGRESQL
 spring.datasource.platform=postgres
@@ -37,14 +43,4 @@ spring.datasource.url=jdbc:postgresql://localhost:5432/codenation
 spring.datasource.username=postgres
 spring.datasource.password=admin
 
-spring.jpa.hibernate.ddl-auto=create
-
-#Outra conexão postgres
-
-spring.jpa.properties.hibernate.jdbc.lob.nom_contextual_create=true
-
-#Banco de Dados Postgres
-spring.datasource.url = jdbc:postgres://localhost:5432/codenation
-spring.datasource.username = postgres
-spring.datasource.password = admin
-spring.jpa.hibernate.ddl-auto = update
+spring.jpa.hibernate.ddl-auto=create-drop
