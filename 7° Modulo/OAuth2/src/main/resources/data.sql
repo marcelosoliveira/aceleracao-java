@@ -1,0 +1,4 @@
+INSERT INTO usuario (id, nome, email, login, senha) VALUES(1, 'Marcelo dos Santos', 'msbobsk8@hotmail.com', 'msbobsk8@hotmail.com', '123456789');
+INSERT INTO usuario (id, nome, email, login, senha) VALUES(2, 'Ana Marcia dos Santos', 'anamarciasantosoliveira@hotmail.com', 'anamarciasantosoliveira@hotmail.com', '987654321');
+INSERT INTO usuario (id, nome, email, login, senha) VALUES(3, 'Joaquim de Oliveira Netto', 'joaquimoliveira@hotmail.com', 'joaquimoliveira@hotmail.com', '9876543219');
+INSERT INTO usuario (id, nome, email, login, senha) VALUES(4, 'Marcio dos Santos', 'marcio_318@hotmail.com', 'marcio_318@hotmail.com', '123456789');
